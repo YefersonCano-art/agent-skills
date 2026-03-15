@@ -1,0 +1,14 @@
+{
+  "name": "repository-report",
+  "id": "repository-report",
+  "description": "Activates only on explicit repository report requests and generates a fixed 7-section Executive-Technical Repository Report.",
+  "references": {
+    "files": ["patterns.md", "examples.md", "template.md"]
+  },
+  "sections": {
+    "scope": "Executive summary, overview, structure, branches, collaboration, dependencies, architecture, and CI/CD",
+    "exclusions": "Do not turn the report into a deep audit unless explicitly requested",
+    "classification": "Separate primary vs secondary branches; never label a primary branch obsolete",
+    "output": "Markdown document in docs with date and fixed 7-section structure"
+  }
+}

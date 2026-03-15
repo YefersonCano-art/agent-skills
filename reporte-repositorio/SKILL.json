@@ -1,0 +1,14 @@
+{
+  "name": "reporte-repositorio",
+  "id": "reporte-repositorio",
+  "description": "Se activa solo ante solicitud explícita de reporte del repositorio y genera un Reporte Ejecutivo-Técnico con estructura fija de 7 secciones.",
+  "references": {
+    "files": ["patterns.md", "examples.md", "template.md"]
+  },
+  "sections": {
+    "scope": "Resumen ejecutivo, panorama general, estructura, ramas, colaboración, dependencias, arquitectura y CI/CD",
+    "exclusions": "No convertir el reporte en auditoría profunda salvo solicitud explícita",
+    "classification": "Separar ramas principales y secundarias; no llamar obsoleta a una rama principal",
+    "output": "Documento Markdown en docs con fecha y estructura fija de 7 secciones"
+  }
+}
