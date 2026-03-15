@@ -23,13 +23,13 @@ This skill should activate only for explicit repository report requests, for exa
 ## Install
 
 ```bash
-npx skills add <owner>/<repo> --skill repository-report
+npx skills add https://github.com/YefersonCano-art/agent-skills --skill repository-report
 ```
 
 Example:
 
 ```bash
-npx skills add canoc/cafefarm --skill repository-report
+npx skills add https://github.com/YefersonCano-art/agent-skills --skill repository-report
 ```
 
 ## Skill files
