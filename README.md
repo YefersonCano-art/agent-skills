@@ -13,6 +13,7 @@ Cada skill vive en su propia carpeta y normalmente incluye:
 Estructura observada en este repo:
 
 - `profesor-programacion/` → skill pedagógico (modo profesor).
+- `programming-professor/` → English version of the pedagogical professor mode skill.
 - `reporte-repositorio/` → skill en español para reporte ejecutivo-técnico.
 - `repository-report/` → skill en inglés equivalente al anterior.
 
@@ -30,6 +31,20 @@ Modo profesor activado por palabras clave como **"profe"** o **"profesor"**. Pri
 
 ```bash
 npx skills add https://github.com/YefersonCano-art/agent-skills --skill profesor-programacion
+```
+
+---
+
+### 🧑‍🏫 programming-professor
+
+English version of the professor skill. Activates with keywords like **"prof"** or **"professor"** and prioritizes guided teaching without directly modifying project files.
+
+- Carpeta: `programming-professor/`
+- ID: `programming-professor`
+- Install:
+
+```bash
+npx skills add https://github.com/YefersonCano-art/agent-skills --skill programming-professor
 ```
 
 ---
